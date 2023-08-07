@@ -12,3 +12,4 @@ images=`docker images | grep kammana/nodejenkins | awk '{print $3}'`
 docker rmi $images
 docker run -d -p 8080:8080 --name nodeapp $1
 # this is the deploy.sh  file
+#welcome to gis DevOps file
